@@ -1,0 +1,64 @@
+body {
+  font: 100% Garamond, sans-serif;
+  color: #777;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 20px 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #ADD8E6;
+}
+
+table {
+  width: 90.90909%;
+  margin: 0 10px;
+  text-align: center;
+}
+table td {
+  background-color: #ccc;
+  color: #fff;
+  padding: 5px;
+}
+
+.box {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+article[role="main"] {
+  float: right;
+  width: 60%;
+  background-color: #fff;
+}
+
+aside[role="complementary"] {
+  float: left;
+  width: 40%;
+  background-color: #fff;
+}

@@ -1,0 +1,67 @@
+$font-stack:    Garamond, sans-serif
+$primary-color: #777
+$nav-color: #ADD8E6
+$tablet: 768px
+$desktop: (min-width: 1024px)
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+  
+h1
+  text-transform: uppercase
+  text-align: center
+
+nav
+  ul
+    margin: 0
+    padding: 20px 0
+    list-style: none
+    width: 100%
+    text-align: center
+    text-transform: uppercase
+
+  li
+    display: inline-block
+
+  a
+    display: block
+    padding: 6px 12px
+    text-decoration: none
+    color: $nav-color
+    
+table
+  width: 100 / 110 * 100%
+  margin: 0 10px
+  text-align: center
+  td
+    background-color: #ccc
+    color: #fff
+    padding: 5px
+  
+.box
+  padding: 10px 20px
+  margin: 0 10px
+  border: 1px solid #000
+  +border-radius(10px)
+  
+.container
+  width: 100%
+
+article[role="main"]
+  float: right
+  width: 6 / 10 * 100%
+  background-color: #fff
+
+
+aside[role="complementary"]
+  float: left
+  width: 4 / 10 * 100%
+  background-color: #fff
+
